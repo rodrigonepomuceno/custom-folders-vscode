@@ -16,9 +16,11 @@ feature_structure.json
     "new_folder/folder1",
     "new_folder/folder2"    
   ]
-}```
+}
+```
 
 Or default folders
+
 ```
 {
   "feature_name": "new_feature",
@@ -32,4 +34,5 @@ Or default folders
     "presentation/cubit",
     "presentation/pages"
   ]
-}````
+}
+```
