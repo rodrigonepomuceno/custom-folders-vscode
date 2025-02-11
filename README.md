@@ -9,6 +9,17 @@ npm run compile && vsce package --allow-missing-repository && code --install-ext
 In root project create
 feature_structure.json 
 
+```
+{
+  "feature_name": "new_feature",
+  "folders": [
+    "new_folder/folder1",
+    "new_folder/folder2"    
+  ]
+}```
+
+Or default folders
+```
 {
   "feature_name": "new_feature",
   "folders": [
@@ -21,4 +32,4 @@ feature_structure.json
     "presentation/cubit",
     "presentation/pages"
   ]
-}
+}````
